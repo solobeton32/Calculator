@@ -1,0 +1,75 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    outline: none;
+    font-family: sans-serif;
+    background-color:  #ecf0f3;
+}
+/*============spostare il container in centro========*/
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Calculator {
+    background-color:  #ecf0f3;
+    padding: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: inset 5px 5px 12px 5px #fff,
+                                5px 5px 12px rgba(0, 0, 0, .16);
+    display: grid;
+    grid-template-columns: repeat(4, 68px);
+}
+
+input {
+        grid-column: span 4;
+        height: 70px;
+        width: 260px;
+        background-color:  rgb(47, 191, 186);
+        border: none;
+        border-radius: 30px ;
+        -webkit-border-radius: 30px ;
+        -moz-border-radius: 30px ;
+        -ms-border-radius: 30px ;
+        -o-border-radius: 30px ;
+        color:  rgb(70, 70, 70);
+        font-size: 50px;
+        text-align: end;
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        padding: 13px; 
+}
+button{
+    height: 48px;
+    width: 48px;
+    background-color: #ecf0f3;
+    border: none;
+    font-size: 16px;
+    margin: 8px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-transform: uppercase;
+}
+button:hover {
+    background-color: aquamarine;
+}
+.equal {
+    width: 115px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    background-color:  #ecf0f3;
+}

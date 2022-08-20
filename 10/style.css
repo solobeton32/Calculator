@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Nunito',sans-serif;
+}
+
+/* pour le calac*/
+.calc_body{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: rgb(22, 218, 136);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+/*pour le result*/
+.result{
+    background-color: rgb(20, 48, 122);
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    -ms-border-radius: 8px 8px 0 0;
+    -o-border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 40px;
+}
+
+/*les buttons*/
+.buttons{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.buttons button{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    border: none;
+    transition: .2s all linear;
+    -webkit-transition: .2s all linear;
+    -moz-transition: .2s all linear;
+    -ms-transition: .2s all linear;
+    -o-transition: .2s all linear;
+}
+
+/*quand tu passe dessu*/
+.buttons button:hover{
+    background-color: rgba(31, 163, 38, 0.863);
+}
+
+.buttons button:active{
+    background-color: rgb(143, 24, 127);
+}
+
+.equal{
+    background-color: rgb(188, 206, 33);
+}
